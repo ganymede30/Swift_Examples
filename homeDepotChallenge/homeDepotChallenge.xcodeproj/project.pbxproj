@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9457A4C25D0BD0300823BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9457A4B25D0BD0300823BB1 /* AppDelegate.swift */; };
+		C9457A4E25D0BD0300823BB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9457A4D25D0BD0300823BB1 /* SceneDelegate.swift */; };
+		C9457A5025D0BD0300823BB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9457A4F25D0BD0300823BB1 /* ViewController.swift */; };
+		C9457A5325D0BD0300823BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9457A5125D0BD0300823BB1 /* Main.storyboard */; };
+		C9457A5525D0BD0600823BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9457A5425D0BD0600823BB1 /* Assets.xcassets */; };
+		C9457A5825D0BD0600823BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9457A5625D0BD0600823BB1 /* LaunchScreen.storyboard */; };
+		C9457A6125D0BD3B00823BB1 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9457A6025D0BD3B00823BB1 /* Album.swift */; };
+		C9457A6725D0C6C200823BB1 /* AlbumDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9457A6525D0C6C200823BB1 /* AlbumDetailCell.swift */; };
+		C9457A6825D0C6C200823BB1 /* AlbumDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9457A6625D0C6C200823BB1 /* AlbumDetailCell.xib */; };
+		C9457A6E25D0F87B00823BB1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9457A6D25D0F87B00823BB1 /* ViewModel.swift */; };
+		C9457A7225D0F88E00823BB1 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9457A7125D0F88E00823BB1 /* CellViewModel.swift */; };
+		C9457AC525D191FD00823BB1 /* ImageSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9457AC425D191FD00823BB1 /* ImageSingleton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9457A4825D0BD0300823BB1 /* homeDepotChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeDepotChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9457A4B25D0BD0300823BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9457A4D25D0BD0300823BB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9457A4F25D0BD0300823BB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9457A5225D0BD0300823BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9457A5425D0BD0600823BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9457A5725D0BD0600823BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9457A5925D0BD0600823BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9457A6025D0BD3B00823BB1 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		C9457A6525D0C6C200823BB1 /* AlbumDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailCell.swift; sourceTree = "<group>"; };
+		C9457A6625D0C6C200823BB1 /* AlbumDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumDetailCell.xib; sourceTree = "<group>"; };
+		C9457A6D25D0F87B00823BB1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C9457A7125D0F88E00823BB1 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		C9457AC425D191FD00823BB1 /* ImageSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSingleton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9457A4525D0BD0300823BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9457A3F25D0BD0300823BB1 = {
+			isa = PBXGroup;
+			children = (
+				C9457A4A25D0BD0300823BB1 /* homeDepotChallenge */,
+				C9457A4925D0BD0300823BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9457A4925D0BD0300823BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9457A4825D0BD0300823BB1 /* homeDepotChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9457A4A25D0BD0300823BB1 /* homeDepotChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				C9457AC325D191D400823BB1 /* Utility */,
+				C9457A6C25D0F86200823BB1 /* ViewModel */,
+				C9457A4B25D0BD0300823BB1 /* AppDelegate.swift */,
+				C9457A6425D0C67800823BB1 /* View */,
+				C9457A4D25D0BD0300823BB1 /* SceneDelegate.swift */,
+				C9457A4F25D0BD0300823BB1 /* ViewController.swift */,
+				C9457A5125D0BD0300823BB1 /* Main.storyboard */,
+				C9457A5425D0BD0600823BB1 /* Assets.xcassets */,
+				C9457A5625D0BD0600823BB1 /* LaunchScreen.storyboard */,
+				C9457A5925D0BD0600823BB1 /* Info.plist */,
+				C9457A6025D0BD3B00823BB1 /* Album.swift */,
+			);
+			path = homeDepotChallenge;
+			sourceTree = "<group>";
+		};
+		C9457A6425D0C67800823BB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9457A6525D0C6C200823BB1 /* AlbumDetailCell.swift */,
+				C9457A6625D0C6C200823BB1 /* AlbumDetailCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9457A6C25D0F86200823BB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9457A6D25D0F87B00823BB1 /* ViewModel.swift */,
+				C9457A7125D0F88E00823BB1 /* CellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9457AC325D191D400823BB1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C9457AC425D191FD00823BB1 /* ImageSingleton.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9457A4725D0BD0300823BB1 /* homeDepotChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9457A5C25D0BD0600823BB1 /* Build configuration list for PBXNativeTarget "homeDepotChallenge" */;
+			buildPhases = (
+				C9457A4425D0BD0300823BB1 /* Sources */,
+				C9457A4525D0BD0300823BB1 /* Frameworks */,
+				C9457A4625D0BD0300823BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = homeDepotChallenge;
+			productName = homeDepotChallenge;
+			productReference = C9457A4825D0BD0300823BB1 /* homeDepotChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9457A4025D0BD0300823BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C9457A4725D0BD0300823BB1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C9457A4325D0BD0300823BB1 /* Build configuration list for PBXProject "homeDepotChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9457A3F25D0BD0300823BB1;
+			productRefGroup = C9457A4925D0BD0300823BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9457A4725D0BD0300823BB1 /* homeDepotChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9457A4625D0BD0300823BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9457A6825D0C6C200823BB1 /* AlbumDetailCell.xib in Resources */,
+				C9457A5825D0BD0600823BB1 /* LaunchScreen.storyboard in Resources */,
+				C9457A5525D0BD0600823BB1 /* Assets.xcassets in Resources */,
+				C9457A5325D0BD0300823BB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9457A4425D0BD0300823BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9457A5025D0BD0300823BB1 /* ViewController.swift in Sources */,
+				C9457A6725D0C6C200823BB1 /* AlbumDetailCell.swift in Sources */,
+				C9457A4C25D0BD0300823BB1 /* AppDelegate.swift in Sources */,
+				C9457A7225D0F88E00823BB1 /* CellViewModel.swift in Sources */,
+				C9457A4E25D0BD0300823BB1 /* SceneDelegate.swift in Sources */,
+				C9457AC525D191FD00823BB1 /* ImageSingleton.swift in Sources */,
+				C9457A6E25D0F87B00823BB1 /* ViewModel.swift in Sources */,
+				C9457A6125D0BD3B00823BB1 /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9457A5125D0BD0300823BB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9457A5225D0BD0300823BB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9457A5625D0BD0600823BB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9457A5725D0BD0600823BB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9457A5A25D0BD0600823BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9457A5B25D0BD0600823BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9457A5D25D0BD0600823BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTL3P5MM5F;
+				INFOPLIST_FILE = homeDepotChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rave.homeDepotChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9457A5E25D0BD0600823BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTL3P5MM5F;
+				INFOPLIST_FILE = homeDepotChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rave.homeDepotChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9457A4325D0BD0300823BB1 /* Build configuration list for PBXProject "homeDepotChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9457A5A25D0BD0600823BB1 /* Debug */,
+				C9457A5B25D0BD0600823BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9457A5C25D0BD0600823BB1 /* Build configuration list for PBXNativeTarget "homeDepotChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9457A5D25D0BD0600823BB1 /* Debug */,
+				C9457A5E25D0BD0600823BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9457A4025D0BD0300823BB1 /* Project object */;
+}

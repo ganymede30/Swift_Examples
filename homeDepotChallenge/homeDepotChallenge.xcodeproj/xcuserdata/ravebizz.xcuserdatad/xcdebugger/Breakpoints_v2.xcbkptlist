@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4685BF2C-F8AF-4F52-8A55-DF8ADB49250F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8820DD15-2035-4033-B8C8-1EEB90E80DED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "homeDepotChallenge/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "setUpVMClosure()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8820DD15-2035-4033-B8C8-1EEB90E80DED - e16748813bb1c302"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homeDepotChallenge.ViewController.setUpVMClosure() -&gt; ()"
+                  moduleName = "homeDepotChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravebizz/Documents/Training/homeDepotChallenge/homeDepotChallenge/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "8820DD15-2035-4033-B8C8-1EEB90E80DED - d3047f58384abedd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in homeDepotChallenge.ViewController.setUpVMClosure() -&gt; ()"
+                  moduleName = "homeDepotChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ravebizz/Documents/Training/homeDepotChallenge/homeDepotChallenge/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00A0721A-8CDF-4D13-9699-0C2E93F81BB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "homeDepotChallenge/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
